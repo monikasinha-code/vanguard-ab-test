@@ -1,0 +1,53 @@
+# ==============================================================================
+# Data and Large Files (Crucial for Data Analysts)
+# ==============================================================================
+# Block all CSV files from being tracked
+*.csv
+
+# If you have specific, small CSVs you MUST track, uncomment the next line and change the name:
+# !important_metadata.csv
+
+# Block other common large data formats
+*.xlsx
+*.json
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.tsv
+*.sqlite
+*.db
+
+# ==============================================================================
+# Jupyter Notebooks & Python Outputs
+# ==============================================================================
+# Notebook checkpoints (autosaves created by Jupyter)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (if you use them locally)
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================================================================
+# Visual Studio Code (Local Settings)
+# ==============================================================================
+# Ignore your personal VS Code settings, workspace files, and history
+.vscode/
+*.code-workspace
+
+# ==============================================================================
+# System Files
+# ==============================================================================
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db

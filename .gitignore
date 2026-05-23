@@ -1,6 +1,12 @@
 # ==============================================================================
 # Data and Large Files (Crucial for Data Analysts)
 # ==============================================================================
+# Block large files
+df_final_demo.txt
+df_final_experiment_clients.txt
+df_final_web_data_pt_1.txt
+df_final_web_data_pt_2.txt
+
 # Block all CSV files from being tracked
 *.csv
 

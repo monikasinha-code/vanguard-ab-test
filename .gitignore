@@ -8,7 +8,7 @@ df_final_web_data_pt_1.txt
 df_final_web_data_pt_2.txt
 
 # Block all CSV files from being tracked
-*.csv
+#*.csv
 
 # If you have specific, small CSVs you MUST track, uncomment the next line and change the name:
 # !important_metadata.csv

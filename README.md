@@ -149,7 +149,7 @@ These fields would help Vanguard understand whether start-step friction is cause
 ## Tableau Dashboard
 
 The Tableau presentation visualizes:
-
+- [View the Interactive Tableau Story here](https://public.tableau.com/shared/CWRBCRWKC?:display_count=n&:origin=viz_share_link)
 - Demographic balance between Test and Control groups
 - Overall completion rates
 - High-balance completion rates
